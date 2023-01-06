@@ -18,4 +18,3 @@ window.onclick = function(e){
         menuOpen.style.display = "none";
     }
 }
-

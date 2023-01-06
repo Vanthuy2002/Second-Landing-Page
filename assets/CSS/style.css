@@ -5,6 +5,8 @@
   font-size: 40px;
   cursor: pointer;
 }
+
+
 .navbar {
   width: 100%;
   width: 85%;
@@ -531,6 +533,11 @@
   border-radius: 5px;
   padding: 4px 8px;
 }
+
+.menu__reponsive-close .icon-reponsive:active{
+  transform: rotate(45deg);
+}
+
 
 @keyframes slider {
   from {
