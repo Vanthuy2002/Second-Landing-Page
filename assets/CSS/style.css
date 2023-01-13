@@ -548,6 +548,15 @@
   }
 }
 
+@keyframes slideout {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
 /* căn chỉnh kích thước màn hình */
 
 @media (max-width: 574.98px) {
