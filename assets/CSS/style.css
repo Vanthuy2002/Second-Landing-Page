@@ -488,7 +488,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  animation: slider 0.3s linear forwards;
+  animation: slider 0.3s linear;
 }
 .menu__bottom-reponsive,
 .big__menu-reponsive {
@@ -535,16 +535,16 @@
 }
 
 .menu__reponsive-close .icon-reponsive:active{
-  transform: rotate(45deg);
+  transform: scale(0.8);
 }
 
 
 @keyframes slider {
   from {
-    transform: translate(-100%);
+    transform: translateX(-100%);
   }
   to {
-    transform: translate(0);
+    transform: translateX(0);
   }
 }
 
